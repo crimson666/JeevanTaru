@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.stealth.log_ui">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="JeevanTaru"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".log_in"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".registration"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".doc_reg"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".phar_reg"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".request"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".homed"
+            android:label="Pending Patient request"
+            android:theme="@style/AppTheme3" />
+        <activity
+            android:name=".homep"
+            android:label="Your Pending Orders"
+            android:theme="@style/AppTheme3" />
+        <activity
+            android:name=".detail_home_phar"
+            android:label="Order Details"
+            android:theme="@style/AppTheme3" />
+        <activity
+            android:name=".detail_home_doc"
+            android:label="Patient Details"
+            android:theme="@style/AppTheme3" />
+        <activity
+            android:name=".phar_req"
+            android:label="Nearby Pharmacy"
+            android:theme="@style/AppTheme3" />
+        <activity
+            android:name=".phar_req_details"
+            android:label="Order"
+            android:theme="@style/AppTheme3" />
+        <activity android:name=".doc_req"
+            android:label="Doctors"
+            android:theme="@style/AppTheme3"/>
+        <activity android:name=".doc_req_rec"
+            android:label="Nearby Doctors"
+            android:theme="@style/AppTheme3"/>
+        <activity android:name=".doc_details"
+            android:label="Details"
+            android:theme="@style/AppTheme3"/>
+    </application>
+
+</manifest>

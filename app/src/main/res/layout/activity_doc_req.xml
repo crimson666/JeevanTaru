@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.stealth.log_ui.doc_req"
+    android:paddingBottom="10dp"
+    android:paddingTop="30dp"
+    android:weightSum="1"
+    android:padding="30dp"
+
+    >
+
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/buttons_style1"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:onClick="onsearch"
+        android:text="SEARCH" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Who is the patient?"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView5" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="11dp"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Patient Age"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        android:id="@+id/textView5"
+        android:layout_alignBaseline="@+id/textView7"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_alignStart="@+id/button3" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="100dp"
+
+        android:layout_height="30dp"
+        android:ems="10"
+        android:background="#fff"
+        android:inputType="textPersonName"
+        android:layout_marginStart="12dp"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/textView5" />
+
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="#fff"
+        android:hint="Please Type Your health issues in details"
+        android:gravity="top"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="12dp"
+        android:layout_above="@+id/textView8"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+
+        android:text="Patient Gender"
+        android:layout_above="@+id/editText2"
+        android:layout_alignEnd="@+id/textView8"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="13dp" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+
+        android:layout_alignBottom="@+id/editText2"
+        android:layout_alignStart="@+id/textView7" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button3"
+        android:layout_alignEnd="@+id/button3" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spinner3"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+
+        android:text="Patient Issue"
+        android:layout_alignEnd="@+id/spinner3" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/spinner"
+        android:layout_marginTop="17dp"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="#fff"
+        android:textSize="24sp"
+
+        android:inputType="textPersonName"
+        android:layout_below="@+id/textView4"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_marginTop="11dp"
+        android:layout_alignEnd="@+id/textView8" />
+
+
+</RelativeLayout>

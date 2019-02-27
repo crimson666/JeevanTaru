@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.stealth.log_ui.log_in"
+
+    android:paddingRight="40dp"
+    android:paddingLeft="40dp"
+       android:paddingTop="100dp"
+    android:background="@drawable/b2"
+    >
+    <!--android:background="@drawable/b2"-->
+    <!--android:background="@color/colorPrimaryDark"-->
+
+
+
+
+
+    <LinearLayout
+        android:paddingTop="60dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        >
+
+
+    <ImageView
+
+
+        app:srcCompat="@drawable/icon1"
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+
+
+        />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:paddingLeft="25dp"
+        android:text="Welcome !"
+        android:textColor="#fff"
+        android:textSize="45dp" />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        style="@style/edit_txt"
+        android:id="@+id/edit_text1"
+        android:layout_width="match_parent"
+            android:hint="USERNAME"
+        />
+
+    <EditText
+        style="@style/edit_txt"
+        android:id="@+id/edit_text2"
+        android:layout_width="match_parent"
+        android:hint="PASSWORD"
+        android:inputType="textPassword"
+
+           />
+    <Button
+        style="@style/buttons_style1"
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:text="SUBMIT"
+        android:onClick="onclick"
+        />
+
+
+
+</LinearLayout>
+
+
+
+</RelativeLayout>
