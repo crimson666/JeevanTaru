@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">log_ui</string>
+    <string-array name="spinner_array">
+        <item>Select specialty</item>
+        <item>Allergist</item>
+        <item>Anesthesiologist</item>
+        <item>Cardiologist</item>
+        <item>Urologist</item>
+        <item>Dermatologist</item>
+        <item>Gastroenterologist</item>
+        <item>Ganeral Physician</item>
+        <item>Hematologist</item>
+        <item>Nephrologist</item>
+        <item>Neurologist</item>
+        <item>Neurosurgeon</item>
+        <item>Obstetrician</item>
+        <item>Gynecologist</item>
+        <item>Ophthalmologist</item>
+        <item>Otolaryngologist</item>
+        <item>Pathologist</item>
+        <item>Pediatrician</item>
+        <item>Podiatrist</item>
+        <item>Psychiatrist</item>
+        <item>Medicine Physician</item>
+        <item>Radiation Onconlogist</item>
+        <item>Diagnostic Radiologist </item>
+        <item>Rheumatologist</item>
+        <item>Urologist</item>
+
+    </string-array>
+
+
+    <string-array name="spinner_array2">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+</resources>
